@@ -1,0 +1,40 @@
+{
+  "name": "@serhiiromaniuk/crypto",
+  "version": "0.0.0-betav1",
+  "description": "Crypto module",
+  "keywords": [
+    "serhiiromaniuk",
+    "crypto",
+    "aes"
+  ],
+  "author": "Serhii Romaniuk <serhii.romaniuk.here@gmail.com>",
+  "homepage": "https://github.com/serhiiromaniuk/packages/tree/main/packages/crypto#readme",
+  "license": "ISC",
+  "main": "src/index.js",
+  "directories": {
+    "src": "src",
+    "test": "test"
+  },
+  "files": [
+    "src"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serhiiromaniuk/packages.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/serhiiromaniuk/packages/issues"
+  },
+  "dependencies": {
+    "crypto-js": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/crypto-js": "^4.0.1"
+  }
+}
